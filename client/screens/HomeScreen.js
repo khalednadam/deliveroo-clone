@@ -9,7 +9,7 @@ import { ChevronDownIcon,
 } from 'react-native-heroicons/outline';
 import sanityClient from '../sanity';
 import Categories from '../components/Categories';
-const Home = () => {
+const HomeScreen = () => {
     const navigation = useNavigation();
     const [featuredCategories, setFeaturedCategories] = useState([]);
 
@@ -83,4 +83,4 @@ const Home = () => {
     )
 }
 
-export default Home;
+export default HomeScreen;
