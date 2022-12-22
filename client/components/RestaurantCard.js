@@ -49,9 +49,9 @@ const RestaurantCard = ({
                         <Text className="text-green-500">{rating}</Text> . {genre}</Text>
                 </View>
                 <View className="pt-3 flex-row items-center space-x-1">
-                <MapPinIcon color="gray" size={22} />
-                <Text>Nearby | {address}</Text>
-            </View>
+                    <MapPinIcon color="gray" size={22} />
+                    <Text>Nearby | {address}</Text>
+                </View>
             </View>
             
         </TouchableOpacity>

@@ -67,7 +67,7 @@ const HomeScreen = () => {
             contentContainerStyle={{
                 paddingBottom: 100
             }}>
-                {/* <Categories /> */}
+                <Categories />
                 {featuredCategories.map(category => (
                     <FeaturedRow
                         key={category._id}
